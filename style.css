@@ -99,7 +99,6 @@ header{
   .dropdown-content {
     display: none;
     position: absolute;
-    /* background-image: linear-gradient(to bottom,#ffc107 , #f44336 ); */
 
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -749,12 +748,12 @@ font-size: 20px;
             display:block ;
     
         }
+        .dropdown-content{
+    background-image: linear-gradient(to bottom,#ffc107 , #f44336 );
 
-        nav ul li:hover{
-            background-image: none;
-        
-        
-            }
+        }
+
+       
 
             nav ul li > a:hover{
                 color:white ;
