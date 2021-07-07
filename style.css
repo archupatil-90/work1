@@ -707,6 +707,7 @@ input[type="text"]{
     .service-box h6{
         color:#f33f3f;
 font-size: 20px;
+text-transform: uppercase;
     }
     .service-box:hover{
         transform: translateY(-20px);
