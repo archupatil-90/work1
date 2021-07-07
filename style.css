@@ -99,7 +99,7 @@ header{
   .dropdown-content {
     display: none;
     position: absolute;
-
+background-color: #fff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -115,6 +115,7 @@ header{
     text-align: left;
     border-bottom: 1px solid gray    ;
     transition: 0.6s;
+    font-weight: 500;
   }
   .dropdown-content a:hover {
     background-color: white;
